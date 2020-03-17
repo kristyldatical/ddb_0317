@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="03172020_Test_Project" storedLogicExternal="true" deployThreshold="stopOnError" projectsId="b16d91a2-8a66-49db-8b58-db6671868fcf" runtimeCredentials="false" multiSchema="true" dbSchemaDefinition="project" schemaSelectionStep="REF" trackingSchema="TRACKINGSCHEMA0317" enableRowCount="disabled" multiCatalog="false" lastEdited="2020-03-17T20:59:17.238Z">
+  <dbDefs xsi:type="dbproject:OracleDbDef" name="REF" driver="oracle.jdbc.OracleDriver" hostname="oracleee-12-primary-kgomes-1-01.cxzzhukwefee.us-east-1.rds.amazonaws.com" port="1521" username="intuser" password="aW50dXNlcjcz" dbDefsId="321c8d15-1df3-3bde-b885-6588318eee70" serviceName="orcl" enableCompression="false" rowsPerBatch="10000" useWallet="false"/>
+  <plans name="03172020_Test_Project" databaseDefs="//@dbDefs[name='REF']" plansId="7503273f-0ebc-328f-ab19-a7ee94eb7e14"/>
+  <changelog href="Changelog/changelog.xml#//@databaseChangeLog"/>
+  <schemas name="TESTUSER0317"/>
+  <schemas name="TESTUSER0317B"/>
+</dbproject:Project>
